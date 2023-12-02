@@ -1,0 +1,23 @@
+{
+  "namespace": "mqt.laboratory.streams.avro",
+  "type": "record",
+  "name": "ClubAvro",
+  "fields": [
+    {
+      "name": "nume",
+      "type": "string"
+    },
+    {
+      "name": "tara",
+      "type": "string"
+    },
+    {
+      "name": "oras",
+      "type": "string"
+    },
+    {
+      "name": "anulInfiintarii",
+      "type": "int"
+    }
+  ]
+}
