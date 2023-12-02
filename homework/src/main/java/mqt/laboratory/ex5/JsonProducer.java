@@ -8,7 +8,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 
 public class JsonProducer {
     private static final String BOOTSTRAP_SERVERS = "localhost:9092";
-    private static final String CLIENT_ID = "stringProducer";
+    private static final String CLIENT_ID = "jsonProducer";
 
     private static Producer<String, String> producer;
 
