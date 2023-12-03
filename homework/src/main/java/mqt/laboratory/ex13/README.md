@@ -28,7 +28,7 @@ INSERT INTO midfielders VALUES (4, 'Giovanni Reyna', 18);
 **Connect Cluster connect-default -> Add connector -> JDBC Source Connector-> Upload connector config file -> Select file -> postgres-source-connector-1.json**
 ![image4](./images/image4.png)
 
-### 6. Check connector's data http://localhost:9021
+### 6. Check connector's data http://localhost:8180
 ![image5](./images/image5.png)
 
 ### 7. Send more data to the table and check again
