@@ -1,0 +1,15 @@
+{ "name": "jdbc-source-connector", 
+  "config": 
+    {"connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector", 
+     "tasks.max": 1,
+     "topic.prefix": "connect-jdbc-1-midfielders",
+     "connection.url": "jdbc:postgresql://postgres:5432/footballPlayers",
+     "mode": "incrementing", 
+     "incrementing.column.name":"id",
+     "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+     "value.converter.schemas.enable":"true", 
+     "table.whitelist" : "public.midfielders",
+     "connection.user": "demo", 
+     "connection.password" : "demo"
+    }
+}    
