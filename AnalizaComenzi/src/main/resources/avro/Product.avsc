@@ -1,0 +1,19 @@
+{
+  "namespace": "mqt.avro",
+  "type": "record",
+  "name": "Product",
+  "fields": [
+    {
+      "name": "productId",
+      "type": "long"
+    },
+    {
+      "name":"name",
+      "type": "string"
+    },
+    {
+      "name":"price",
+      "type": "double"
+    }
+  ]
+}

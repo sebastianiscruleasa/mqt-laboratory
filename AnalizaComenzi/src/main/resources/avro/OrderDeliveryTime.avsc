@@ -1,0 +1,15 @@
+{
+  "namespace": "mqt.avro",
+  "type": "record",
+  "name": "OrderDeliveryTime",
+  "fields": [
+    {
+      "name": "orderId",
+      "type": "int"
+    },
+    {
+      "name": "deliveryTime",
+      "type": "long"
+    }
+  ]
+}

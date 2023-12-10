@@ -1,0 +1,43 @@
+{
+  "namespace": "mqt.avro",
+  "type": "record",
+  "name": "Order",
+  "fields": [
+    {
+      "name": "orderId",
+      "type": "int"
+    },
+    {
+      "name": "clientId",
+      "type": "int"
+    },
+    {
+      "name": "products",
+      "type": {
+        "type": "array",
+        "items": {
+          "name": "product",
+          "type": "Product"
+        }
+      }
+    },
+    {
+      "name": "placedOrderDate",
+      "type": {
+        "type": "int",
+        "logicalType": "date"
+      }
+    },
+    {
+      "name": "deliveredOrderDate",
+      "type": {
+        "type": "int",
+        "logicalType": "date"
+      }
+    },
+    {
+      "name": "totalPrice",
+      "type": "double"
+    }
+  ]
+}

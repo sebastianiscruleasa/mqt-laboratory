@@ -1,0 +1,15 @@
+{
+  "namespace": "mqt.avro",
+  "type": "record",
+  "name": "ProductCount",
+  "fields": [
+    {
+      "name": "productId",
+      "type": "int"
+    },
+    {
+      "name": "count",
+      "type": "long"
+    }
+  ]
+}
